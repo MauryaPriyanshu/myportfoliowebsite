@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link ref="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700& display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href ="Education.css">
+    <link rel = "stylesheet" href ="Skills.css">
+    <link rel = "stylesheet" href ="project.css">
+    <link rel = "stylesheet" href ="contact.css">
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family:'Poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content:center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: lavender;
+            font-size: 1.04rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1px;
+            margin: 40px 84px
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection {
+            
+            font-size: 2rem;
+            margin: 8px 0;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background:#1e2167;
+            color:white;
+            border:2px solid white;
+            border-radius:4px;
+            font-size:15px;
+            cursor:pointer;
+        }
+        .leftSection .btn:hover{
+             background-color: white;
+             color: #0c0770;
+        }
+
+        .rightSection img{
+            
+            width:70%;
+            margin:40px 10;
+        }
+        .purple{
+            color: rgb(170,107,228);
+        }
+        #element{
+            color: rgb(170,107,228);
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height:80vh;
+            
+        }
+        .secondSection h3{
+            font-size: 1.5rem;
+        }
+        .secondSection .box{
+            background:white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+        .image-top{
+            width:27px;
+            position: relative;
+            left:-9px;
+            top: -30px; 
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 60px;
+            width: 190px;
+
+        }
+
+        .vertical-desc{
+            font-size: 13px;
+            position:relative;
+            top: 70px;
+            color:gray;
+            width: 190px;
+        }
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            height:80vh;
+        }
+        #pSection { 
+            size:"30" noshade;
+            margin-top: 15em;
+            margin-bottom: 5em;
+            margin-left: 7%;
+            margin-right: 7%;
+            border-style: inset;
+             border-width: 0px;
+             border-bottom: 30px;
+             width:86%;
+            }
+
+        footer{
+            background-color: #0e0e1a;
+            height: 233px;
+        }
+         
+        .footer{
+          display: flex;
+          padding: 23px 122px; 
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+    </style>
+</head>
+<body></body>
+    <header>
+        <nav>
+            <div class ="left">Priyanshu's Portfolio</div> 
+            <div class ="right">
+                <ul>
+                    <li><a href="#homeSection">Home</a></li>
+                    <li><a href="#educationSection">Education</a></li>
+                    <li><a href="#skill&trainingSection">Skills&Training</a></li>
+                    <li><a href="#projectSection">Projects</a></li>
+                    <li><a href="#contactSection">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id = "homeSection" class = "firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class = "purple">Priyanshu Maurya</span>
+                <div>and I am a passinate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Priyanshu_Resume_new.pdf"><button class = "btn">Download Resume</button></a>
+                    
+                    <a href= "https://github.com/MauryaPriyanshu"><button class="btn">Visit Github</button></a>
+                </div>
+                
+            </div>
+            
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="vertical"></section>
+        <section id = "educationSection" class="EducationSection">
+            <!-- <span color="text-gray">what I have done so far</span> -->
+            <div>
+            <h3>Education</h3></div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        B.Tech
+                    </div>
+                    <div class="desc">
+                        <section>Branch: Information Technology <br>College: SRMCEM <br>Location: Lucknow<br>Percentage: 83.2%<br>Year: 2019-2023</section><br>
+                    </div>     
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        Intermediate(PCM) 
+                    </div>
+                    <div class="desc">
+                        <section>Stream: PCM <br> College: Shiv Nayak Singh SVM IC <br>Location: Gauriganj,Amethi<br>Percentage: 83.2%<br>Year: 2017-2018</section><br>   
+                    </div>     
+                </div><div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        High School
+                    </div>
+                    <div class="desc">
+                        <section>College: Shiv Mahesh Balika Inter College <br>Location: Gauriganj,Amethi<br>Percentage: 82.83%<br>Year: 2015-2016</section><br> 
+                    </div>     
+                </div>
+            
+        </section>
+        <hr>
+        <section id ="skill&trainingSection" class="secondSection">
+            <!-- <span color="text-gray">what I have done so far</span> -->
+            <div>
+                <h3>Skills</h3>
+            </div>
+            <div class="flex-container">
+                <div  style="color:white">
+                <ul>
+                    <li>Programming Language : Java</li><br>
+                    <li>Data Structures and Algorithms</li><br>
+                    <li>Database : Mysql</li>
+                </ul>
+                </div>
+                <div  style="color:white">
+                    <ul>
+                        <li>Web Technologies : HTML, CSS, Java Script</li><br>
+                        <li>Tools : Intellij Idea, Visual Studio
+                            Spring Boot</li><br>
+                        <li>Operating System : Windows</li>
+                    </ul>
+                    </div>
+            <!-- <ul>
+                <li>Data Structures and Algorithms</li><br>
+                <li>Programming Language : Java</li><br>
+                <li>Database : Mysql</li><br>
+                <li>Web Technologies : HTML, CSS, Java Script</li><br>
+                <li>Tools : Intellij Idea, Visual Studio
+                    Spring Boot</li><br>
+                <li>Operating System : Windows</li>
+              </ul> -->
+            </div>
+            <div>
+            <h3>Training</h3></div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        Machine Laerning (7/2022-8/2022)
+                    </div>
+                    <div class="vertical-desc">
+                        I have successfully completed 6-week online training from PNS Automation. The training consisted of Introduction of Machine Learning, Linear Regression, Logistic Regression, Decision Trees, Random Forest, k-Nearest Neighbors (k-NN) and Clustering.
+                    </div>     
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        Cloud Computing (8/2021-9/2021)
+                    </div>
+                    <div class="vertical-desc">
+                        I have successfully completed 5-week online traning from IBM. The training consisted of Introduction of cloud computing, Cloud Service Models, Cloud Deployment, Cloud Providers, Virtualization, Cloud Storage and Cloud Security.
+                    </div>     
+                </div><div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        Web Development (7/2021-8/2021)
+                    </div>
+                    <div class="vertical-desc">
+                        I have successfully completed an 8-week online training from Internshala. The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, React, and Final Project modules.
+                    </div>     
+                </div><div class="vertical">
+                    <img class="image-top" src="tp.png" alt="">
+                    <div class="vertical-title">
+                        Python programming (6/2020-7/2020)
+                    </div>
+                    <div class="vertical-desc">
+                        I have successfully completed 15 days online traninig from IBM. Project Name: Python programming - Basic Program, File Handling and Pandas and Technologies used: Python IDLE, Pycharm.
+                    </div>     
+                </div>
+
+            </div>
+        </section>
+        
+        <hr id="pSection">
+        <section class="vertical"></section>
+            <section id = "projectSection" class = "thirdSection">
+                <div><h1>Projects</h1></div><br>
+                <!-- <div class="flex-container">
+                    <p style="font-weight:27px ;">User Management System using java and Spring boot</h4>
+                </div> -->
+
+                <div style="width: 510px; float:left; height:500px; background:rgb(0, 0, 33); margin:10px">
+                    <p style="font-size: 23px;">User Management in Java and Spring Boot</p>
+                    <br><ul>
+                        <li style="font-size: 19px;">CRUD operation</li>
+                    </ul>
+                    <ul style="list-style-type:none">
+                        <li> - <strong>Creating</strong> user via registration page</li>
+                        <li> -  <strong>Read</strong> user by its id/email/mob</li>
+                        <li> -  <strong>Update</strong> user details</li>
+                        <li> -  <strong>Delete</strong> the user by its id/email/mob</li>
+
+                    </ul>
+                    <br>
+                    <ul style="font-size: 19px;">
+                        <li>Technologies Used</li>
+                    </ul>
+                    <ul style="list-style-type:none">
+                        <li> - Spring boot – framework for enterprise application</li>
+                        <li> - Template engine(thymleaf) – To bind the data with html pages</li>
+                        <li> - Database – My SQL and in-memory database(H2)</li>
+                        <li> - Github – Code sharing</li>
+                    </ul>
+                    </div>
+                    <div style="width: 130px; float:left; height:500px; background:rgb(0, 0, 33); margin:10px">
+                    
+                    </div>
+                    <div style="width: 510px; float:left; height:500px; background:rgb(0, 0, 33); margin:10px">
+                        <p style="font-size: 23px;">Expiration Reminder Application</p><br>
+                        <ul>
+                            <li>
+                        This Android-based Application assist by sending you an alert when your food is close to expiring. This app will scan the barcodes of packed food and then send a reminder to the owner when the food expires, thereby reducing food waste caused by confusion in food labeling.</li></ul><br>
+                        <ul style="font-size: 19px;">
+                            <li>Technologies Used</li>
+                        </ul>
+                        <ul style="list-style-type:none">
+                            <li> - Android Studio</li>
+                            <li> - Java</li>
+                            <li> - Firebase</li>
+                            <li> - XML</li>
+                            
+                        </ul>
+                        </div>
+            </section>
+
+            <hr>
+            <section class="vertical"></section>
+            <section id = "contactSection" class = "fourthSection">
+                <div>
+                    <h1 style="text-align:center;">Contact me</h1><br>
+                    <div class="flex-container">
+                    <div <i style="color:white" id="email">Email : priyanshu9517@gmail.com</i></div>
+                    <div <i style="color:white">LinkedIn Id : <a href = "https://www.linkedin.com/in/mauryapriyanshu/">visit my LinkedIn profile</a></i></div>
+                    <div <i style="color:white">Github Id : <a href = https://github.com/MauryaPriyanshu>visit my Github profile</a></i></div>
+                </div>
+
+    </main>
+
+    <script src="https:unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['web Developer', 'Coder','Programmer','Learner'],
+      typeSpeed: 80,
+    });
+  </script>
+</body>
+</html>

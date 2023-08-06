@@ -1,0 +1,28 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.flex-container {
+    display: flex;
+    background-color: rgb(0,0,33);
+  }
+  
+  .flex-container > div {
+    background-color: rgb(0,0,33);
+    margin: 50px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 110px;
+    margin-right: 100px
+  }
+  .email:hover{
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer; 
+  }
